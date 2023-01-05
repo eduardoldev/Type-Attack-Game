@@ -1,3 +1,23 @@
+.UsuarioAvatarContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .UsuarioAvatar {
   border-radius: 50%;
+  background-color: rgba(172, 255, 47, 0.7);
+  border: 4px solid rgba(0, 0, 0, 0.7);
+  padding: 4px;
+  width: 150px;
+  height: 150px;
+}
+
+.UsuarioAvatarNome {
+  color: white;
+  font-size: 18pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #222222;
+  text-shadow: -1px -1px 0 rgba(172, 255, 47, 0.7);
 }

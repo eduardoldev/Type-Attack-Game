@@ -1,0 +1,16 @@
+.EntradaPadrao {
+  background-color: rgba(172, 255, 47, 0.7);
+  padding: 16px 28px;
+  font-size: 16pt;
+  font-weight: bolder;
+  text-transform: uppercase;
+  border-radius: 2%;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.7);
+  user-select: none;
+  cursor: text;
+  color: white;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.7);
+}
+.EntradaPadrao::placeholder {
+  color: rgba(103, 158, 21, 0.7);
+}
