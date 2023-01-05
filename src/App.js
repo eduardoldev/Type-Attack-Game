@@ -1,9 +1,9 @@
-import "./App.css";
-import UsuarioAvatar from "./Componentes/UsuarioAvatar";
+import './App.css';
+import UsuarioAvatar from './Componentes/UsuarioAvatar/UsuarioAvatar';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <UsuarioAvatar></UsuarioAvatar>
     </div>
   );
