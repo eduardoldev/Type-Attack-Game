@@ -4,7 +4,7 @@ import './BotaoPadrao.css';
 export default function BotaoPadrao(props) {
   return (
     <>
-      <span className='BotaoPadrao'>{props.children}</span>
+      <button onClick={props.onClick} className='BotaoPadrao'>{props.value}</button>
     </>
   );
 }

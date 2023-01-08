@@ -1,20 +1,16 @@
+import * as React from "react"
 import './App.css';
-import UsuarioAvatar from './Componentes/UsuarioAvatar/UsuarioAvatar';
-import BotaoPadrao from './Componentes/BotaoPadrao/BotaoPadrao';
-import EntradaPadrao from './Componentes/EntradaPadrao/EntradaPadrao';
+import {Routes,Route} from "react-router-dom";
+import PaginaInicial from "./pages/PaginaInicial/PaginaInicial";
+import Jogo from "./pages/Jogo/Jogo"
 
 function App() {
   return (
-    <div className='App'>
-      <UsuarioAvatar
-        name='Gabrielle Silva'
-        src='https://avatars.githubusercontent.com/u/99265156?v=4'
-      />
-      <BotaoPadrao>Entrar</BotaoPadrao>
-      <EntradaPadrao
-        placeholder='Digite seu texto aqui...'
-        type='email'
-      ></EntradaPadrao>
+    <div className="App">
+      <Routes>
+        <Route index element={<PaginaInicial />} />
+        <Route path="jogo" element={<Jogo/>}/>
+      </Routes>
     </div>
   );
 }

@@ -1,0 +1,15 @@
+.PaginaInicialLogo{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.PaginaInicial{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.PaginaInicialConteudo{
+    display: flex;
+    flex-direction: column;
+}
